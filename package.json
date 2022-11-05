@@ -4,11 +4,18 @@
   "description": "Prueba fullstack",
   "main": "app.js",
   "scripts": {
+    "dev": "nodemon app",
+    "start":"node app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Edgard Carrillo",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "sharp": "^0.31.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
