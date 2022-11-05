@@ -51,5 +51,5 @@ app.post('/imagen', upload.single('imagen'),async function (req, res) {
 const PORT = process.env.PORT || 3000//esta mierda es para que heroku pueda darnos un puto puerto de mierda
 
 app.listen(PORT, function(){
-  Console.log("Servidor con puerto", PORT)
+  console.log("Servidor con puerto",PORT)
 })
